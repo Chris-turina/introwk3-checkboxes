@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="jumbotron">Stress Test</h2>
+      <form id="stressQs" action="index.html" method="post">
+        <p>Please check all of your symptoms.</p>
+        <input type="checkbox" name="symptom" value="1"> Lack of Sleep<br>
+        <input type="checkbox" name="symptom" value="1"> Feeling Overwhelmed<br>
+        <input type="checkbox" name="symptom" value="1"> Seeing Stars<br>
+        <input type="checkbox" name="symptom" value="-2"> Meeting your childhood hero<br>
+        <input type="checkbox" name="symptom" value="1"> Buying excessive amounts of jellybeans<br>
+        <input type="checkbox" name="symptom" value="2"> Crushing loneliness<br>
+        <input type="checkbox" name="symptom" value="-2"> Recieving a golden dinosaur<br>
+        <input type="checkbox" name="symptom" value="-3"> Eating an entire cake<br>
+        <input type="checkbox" name="symptom" value="2"> Being famous
+
+        <p><br>Check all Health Symptoms</p>
+        <input type="checkbox" name="health" value="3"> Bleeding from all orifices<br>
+        <input type="checkbox" name="health" value="1"> High Blood Pressure<br>
+        <input type="checkbox" name="health" value="1"> Anxiety<br>
+        <input type="checkbox" name="health" value="2"> A Fear of Spiders<br>
+        <input type="checkbox" name="health" value="4"> Death
+
+        <p><br>How do you manage your stress, check all the apply.</p>
+        <input type="checkbox" name="manage" value="2"> Yoga<br>
+        <input type="checkbox" name="manage" value="3"> Pet a Cat<br>
+        <input type="checkbox" name="manage" value="2"> Exercise<br>
+        <input type="checkbox" name="manage" value="3"> 8 Hours of Sleep<br>
+        <input type="checkbox" name="manage" value="1"> Time Management<br>
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <span id="output"></span>
+    </div>
+  </body>
+</html>
